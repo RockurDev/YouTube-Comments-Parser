@@ -73,4 +73,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 - This README.md provides a clear comparison between the synchronous and asynchronous versions at the beginning.
 - It includes detailed instructions for installation, usage, and file structure specific to both versions of your YouTube comments parser.
-- Replace placeholders (like `repository-name`, `your/repository`, and license details) with actual project-specific information before using.
