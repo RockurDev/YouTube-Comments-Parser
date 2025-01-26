@@ -1,6 +1,6 @@
-# YouTube Comments Parser
+# YouTube Comments Collector
 
-This project provides two versions of a YouTube comments parser implemented in Python: one using asynchronous programming (`main_async.py`) and the other using synchronous programming (`main_sync.py`). The scripts fetch comments from YouTube videos specified in `links.txt`, clean and store them in separate text files.
+This project provides two versions of a YouTube comments collectors implemented in Python: one using asynchronous programming (`main_async.py`) and the other using synchronous programming (`main_sync.py`). The scripts fetch comments from YouTube videos specified in `links.txt`, clean and store them in separate text files.
 
 ## Comparison of Synchronous and Asynchronous Versions
 
@@ -16,7 +16,7 @@ This project provides two versions of a YouTube comments parser implemented in P
 
 ## Getting Started
 
-To use either version of the parser, ensure you have Python installed on your system along with the necessary dependencies listed in `requirements.txt`.
+To use either version of the collector, ensure you have Python installed on your system along with the necessary dependencies listed in `requirements.txt`.
 
 ### Prerequisites
 
@@ -28,8 +28,8 @@ To use either version of the parser, ensure you have Python installed on your sy
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/RockurDev/YouTube-Comments-Parser.git
-   cd YouTube-Comments-Parser
+   git clone https://github.com/RockurDev/YouTube-Comments-Collector.git
+   cd YouTube-Comments-Collector
    ```
 
 2. **Install dependencies:**
@@ -54,8 +54,8 @@ Asynchronous (main_async.py) and synchronous (main_sync.py) versions work identi
     Cleaned comments are stored in data_sync/comments_{video_id}.txt.
 
 ### File Structure
-- `main_async.py`: Asynchronous version of the YouTube comments parser.
-- `main_sync.py`: Synchronous version of the YouTube comments parser.
+- `main_async.py`: Asynchronous version of the YouTube comments collector.
+- `main_sync.py`: Synchronous version of the YouTube comments collector.
 - `links.txt`: File where users paste YouTube video URLs for parsing.
 - `data_async/`: Directory where cleaned comments are stored (for async version).
 - `data_sync/`: Directory where cleaned comments are stored (for sync version).
